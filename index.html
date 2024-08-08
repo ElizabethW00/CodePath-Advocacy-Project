@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Music on the Brain</title>
+  <link rel="icon" type="image/x-icon" href="vibe.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- <script src="index.js"></script> -->
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo"><img src = "vibe.png" width="50" height="50"></img></a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">About</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#stats" class="navbar__links" id="statistics-page">Videos</a>
+        </li>
+        <li class="navbar__item">
+          <button id="theme-button">Toggle Dark Mode</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--the home-home (house) page-->
+  <div class="house" id="home">
+    <div class="house__container">
+      <svg id="logo" width="1129" height="113" viewBox="0 0 1129 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M1079.76 32.9862C1077.12 34.3036 1074.8 35.9502 1072.8 37.9233V33.02V31.02H1070.8H1058.51H1056.51V33.02V107V109H1058.51H1070.8H1072.8V107V66.095C1072.8 58.6653 1074.61 53.3376 1077.92 49.7832C1081.35 46.1965 1085.97 44.335 1091.99 44.335C1097.94 44.335 1102.41 46.1579 1105.65 49.6385L1105.66 49.6469L1105.67 49.6552C1108.88 53.0312 1110.65 58.0861 1110.65 65.15V107V109H1112.65H1124.8H1126.8V107V63.395C1126.8 52.778 1123.9 44.3599 1117.82 38.4735C1111.81 32.5638 1103.99 29.67 1094.56 29.67C1089.24 29.67 1084.3 30.7654 1079.77 32.9786L1079.77 32.9824L1079.76 32.9862Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M1044.98 33.02V31.02H1042.98H1030.69H1028.69V33.02V107V109H1030.69H1042.98H1044.98V107V33.02ZM1029.68 19.9892C1031.69 21.9932 1034.18 23.005 1037.04 23.005C1039.82 23.005 1042.23 21.9798 1044.14 19.969C1046.13 17.9685 1047.14 15.4831 1047.14 12.635C1047.14 9.78692 1046.13 7.30153 1044.14 5.30099C1042.23 3.29025 1039.82 2.26501 1037.04 2.26501C1034.18 2.26501 1031.69 3.27685 1029.68 5.2808C1027.68 7.28474 1026.67 9.77726 1026.67 12.635C1026.67 15.4928 1027.68 17.9853 1029.68 19.9892Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M956.407 34.8025L956.401 34.8062L956.394 34.81C950.752 38.1569 946.318 42.8887 943.097 48.951C939.856 54.9583 938.27 61.9086 938.27 69.7401C938.27 77.49 939.859 84.4752 943.088 90.6471C946.305 96.7981 950.734 101.622 956.373 105.062C962.015 108.505 968.319 110.215 975.235 110.215C981.923 110.215 987.863 108.752 992.985 105.756L992.994 105.751C996.075 103.925 998.72 101.807 1000.91 99.3926V107V109H1002.91H1015.33H1017.33V107V33.0201V31.0201H1015.33H1002.91H1000.91V33.0201V40.3469C998.792 38.0324 996.234 36.0062 993.255 34.2637C988.129 31.2657 982.143 29.8051 975.37 29.8051C968.464 29.8051 962.129 31.4648 956.407 34.8025ZM989.332 47.5636L989.356 47.5779L989.38 47.5915C992.898 49.5552 995.696 52.4206 997.778 56.2501C999.841 60.0473 1000.91 64.5672 1000.91 69.8751C1000.91 75.178 999.843 79.7479 997.773 83.6427C995.69 87.4722 992.887 90.3879 989.356 92.4422C985.897 94.4176 982.059 95.4151 977.8 95.4151C973.545 95.4151 969.71 94.4194 966.253 92.4475C962.813 90.3963 960.049 87.4808 957.961 83.6429C955.894 79.7524 954.825 75.1389 954.825 69.7401C954.825 64.4322 955.893 59.9123 957.957 56.1151C960.045 52.2737 962.806 49.407 966.237 47.4465C969.698 45.4687 973.538 44.4701 977.8 44.4701C982.046 44.4701 985.875 45.506 989.332 47.5636Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M920.346 33.4582C917.999 34.8448 915.944 36.5391 914.183 38.5335V33.02V31.02H912.183H899.898H897.898V33.02V107V109H899.898H912.183H914.183V107V66.77C914.183 59.5697 915.846 54.5424 918.818 51.318C921.761 48.1245 926.306 46.36 932.838 46.36H936.078H938.078V44.36V31.67V29.67H936.078C930.048 29.67 924.78 30.8962 920.363 33.4483L920.354 33.4532L920.346 33.4582Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M880.179 61.1535C878.688 59.9527 877.108 58.9704 875.441 58.2103C878.402 56.5962 880.944 54.5223 883.042 51.9797C886.446 47.8738 888.091 42.7649 888.091 36.8C888.091 31.9487 886.872 27.5273 884.412 23.59C881.925 19.6111 878.228 16.5397 873.441 14.3349C868.61 12.019 862.857 10.905 856.256 10.905H822.506H820.506V12.905V107V109H822.506H857.606C864.131 109 869.879 107.882 874.792 105.57L874.8 105.566L874.807 105.563C879.768 103.178 883.628 99.9335 886.288 95.7965L886.294 95.7876L886.299 95.7786C888.938 91.5756 890.251 86.884 890.251 81.755C890.251 77.6677 889.325 73.8056 887.475 70.1956C885.726 66.6087 883.291 63.5875 880.179 61.1535ZM869.27 69.7789L869.282 69.7884L869.293 69.7978C872.374 72.3398 873.966 75.8372 873.966 80.54C873.966 85.1772 872.447 88.5836 869.547 91.0252C866.601 93.5059 862.348 94.875 856.526 94.875H836.791V65.665H856.121C861.81 65.665 866.123 67.1033 869.27 69.7789ZM855.446 51.54H836.791V25.03H855.176C860.841 25.03 864.85 26.3198 867.509 28.5985C870.147 30.8595 871.536 34.0016 871.536 38.285C871.536 42.5684 870.147 45.7105 867.509 47.9715C864.841 50.2587 860.913 51.54 855.446 51.54Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M780.694 76.6001H782.497L782.683 74.8059C782.959 72.1356 783.099 69.5915 783.099 67.1751C783.099 60.1288 781.547 53.7622 778.399 48.1265C775.338 42.3951 770.929 37.896 765.21 34.655C759.471 31.4033 752.913 29.8051 745.594 29.8051C738.095 29.8051 731.36 31.448 725.445 34.7857C719.608 38.0405 715.065 42.7366 711.832 48.8217C708.594 54.9169 707.009 61.9545 707.009 69.8751C707.009 77.8055 708.643 84.8904 711.973 91.0733L711.973 91.0733L711.979 91.0847C715.299 97.1555 719.876 101.884 725.698 105.225L725.71 105.232C731.618 108.567 738.263 110.215 745.594 110.215C754.758 110.215 762.579 107.918 768.926 103.206L768.934 103.2L768.941 103.194C775.227 98.4327 779.442 92.2577 781.54 84.7216L782.247 82.1851H779.614H766.384H764.962L764.495 83.528C763.194 87.2681 760.935 90.254 757.681 92.5332C754.58 94.679 750.595 95.8201 745.594 95.8201C739.577 95.8201 734.526 93.9576 730.327 90.2592C726.716 86.9298 724.491 82.4296 723.757 76.6001H780.694ZM763.593 53.6307L763.599 53.6408L763.605 53.6509C765.155 56.1449 766.085 59.1132 766.338 62.6101H723.957C724.825 57.0575 727.028 52.7772 730.467 49.6213C734.49 46.0123 739.315 44.2001 745.054 44.2001C749.087 44.2001 752.685 45.0379 755.886 46.6797L755.913 46.6936L755.94 46.7066C759.186 48.2481 761.725 50.5445 763.593 53.6307Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M698.931 109H700.931V107V63.3951C700.931 56.3105 699.58 50.1612 696.778 45.033C694.083 39.9388 690.296 36.0857 685.423 33.5479C680.608 30.9511 675.241 29.6701 669.366 29.6701C663.79 29.6701 658.675 30.7587 654.057 32.9715L654.049 32.975L654.042 32.9787C651.34 34.3009 648.966 35.9568 646.931 37.9452V7.1001V5.1001H644.931H632.646H630.646V7.1001V107V109H632.646H644.931H646.931V107V66.0951C646.931 58.6654 648.743 53.3377 652.055 49.7833C655.487 46.1965 660.104 44.3351 666.126 44.3351C672.07 44.3351 676.539 46.158 679.783 49.6385L679.791 49.6469L679.798 49.6552C683.017 53.0312 684.781 58.0862 684.781 65.1501V107V109H686.781H698.931Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M625.161 96.605V94.605H623.161H614.116C610.505 94.605 608.51 93.9005 607.544 93.0091C606.583 92.0311 605.856 90.1276 605.856 86.75V45.145H623.161H625.161V43.145V33.02V31.02H623.161H605.856V14.39V12.39H603.856H591.571H589.571V14.39V31.02H581.986H579.986V33.02V43.145V45.145H581.986H589.571V86.75C589.571 94.206 591.336 100.052 595.346 103.746C599.277 107.366 604.982 109 612.091 109H623.161H625.161V107V96.605Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M498.573 32.9862C495.938 34.3036 493.615 35.9502 491.612 37.9233V33.02V31.02H489.612H477.327H475.327V33.02V107V109H477.327H489.612H491.612V107V66.095C491.612 58.6654 493.424 53.3376 496.737 49.7832C500.168 46.1965 504.785 44.335 510.807 44.335C516.751 44.335 521.221 46.1579 524.464 49.6385L524.472 49.6469L524.48 49.6552C527.699 53.0312 529.462 58.0861 529.462 65.15V107V109H531.462H543.612H545.612V107V63.395C545.612 52.778 542.718 44.3599 536.639 38.4735C530.629 32.5638 522.809 29.67 513.372 29.67C508.05 29.67 503.111 30.7654 498.588 32.9786L498.581 32.9824L498.573 32.9862Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M408.757 105.232L408.769 105.238C414.756 108.565 421.394 110.215 428.64 110.215C435.971 110.215 442.695 108.567 448.77 105.245C454.854 101.917 459.663 97.2009 463.174 91.1302C466.794 84.937 468.575 77.8313 468.575 69.8751C468.575 61.9314 466.844 54.8743 463.317 48.7692C459.899 42.6972 455.179 38.0182 449.176 34.7758C443.187 31.4513 436.507 29.8051 429.18 29.8051C421.853 29.8051 415.173 31.4513 409.184 34.7758C403.174 38.0218 398.411 42.749 394.907 48.9057L394.907 48.9056L394.902 48.9145C391.47 55.0147 389.785 62.0217 389.785 69.8751C389.785 77.8055 391.42 84.8904 394.749 91.0733L394.758 91.0895L394.767 91.1056C398.18 97.1734 402.848 101.896 408.757 105.232ZM448.65 83.9827L448.642 83.9967L448.634 84.0109C446.464 87.8494 443.624 90.6703 440.117 92.5465C436.538 94.4605 432.722 95.4151 428.64 95.4151C424.548 95.4151 420.831 94.5014 417.452 92.6916C414.139 90.8289 411.432 88.0237 409.345 84.19C407.376 80.4091 406.34 75.6663 406.34 69.8751C406.34 64.1834 407.418 59.4902 409.472 55.7101C411.56 51.8682 414.266 49.1106 417.571 47.3374L417.578 47.3333L417.586 47.3293C421.058 45.4278 424.865 44.4701 429.045 44.4701C433.127 44.4701 436.891 45.4244 440.369 47.3293L440.386 47.3381L440.402 47.3467C443.802 49.1279 446.596 51.8948 448.769 55.7392C450.902 59.5129 452.02 64.1952 452.02 69.8751C452.02 75.543 450.862 80.2147 448.65 83.9827Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M300.876 34.7953L300.87 34.7989L300.864 34.8025C295.13 38.1472 290.645 42.8802 287.419 48.951C284.176 54.9616 282.592 61.958 282.592 69.8751C282.592 77.8813 284.176 84.965 287.416 91.0634C290.642 97.1369 295.128 101.872 300.864 105.218L300.87 105.221L300.876 105.225C306.702 108.567 313.307 110.215 320.637 110.215C329.895 110.215 337.768 107.871 344.12 103.059L344.127 103.053L344.135 103.048C350.439 98.1758 354.64 91.7153 356.727 83.7468L357.383 81.2401H354.792H341.562H340.057L339.64 82.6857C338.402 86.9771 336.174 90.1725 332.99 92.4016C329.796 94.6371 325.722 95.8201 320.637 95.8201C314.137 95.8201 309.029 93.5975 305.122 89.2013C301.231 84.824 299.147 78.4776 299.147 69.8751C299.147 61.366 301.229 55.1173 305.109 50.8326L305.115 50.8257L305.122 50.8188C309.029 46.4226 314.137 44.2001 320.637 44.2001C325.707 44.2001 329.772 45.4209 332.963 47.7343L332.972 47.7411L332.982 47.7479C336.283 50.0831 338.495 53.2453 339.636 57.3193L340.045 58.7801H341.562H354.792H357.332L356.736 56.3108C354.747 48.0714 350.592 41.5328 344.245 36.8185C337.972 32.0925 330.052 29.8051 320.637 29.8051C313.307 29.8051 306.702 31.4531 300.876 34.7953Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M275.644 33.02V31.02H273.644H261.359H259.359V33.02V107V109H261.359H273.644H275.644V107V33.02ZM260.35 19.9892C262.354 21.9932 264.846 23.005 267.704 23.005C270.489 23.005 272.9 21.9798 274.808 19.969C276.799 17.9685 277.804 15.4831 277.804 12.635C277.804 9.78688 276.799 7.3015 274.808 5.30099C272.9 3.29026 270.489 2.26501 267.704 2.26501C264.846 2.26501 262.354 3.27683 260.35 5.2808C258.346 7.28477 257.334 9.77729 257.334 12.635C257.334 15.4927 258.346 17.9853 260.35 19.9892Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M206.356 107.211L206.372 107.217L206.387 107.224C211.169 109.232 216.523 110.215 222.417 110.215C227.952 110.215 232.918 109.277 237.269 107.343L237.278 107.339L237.287 107.334C241.703 105.319 245.2 102.539 247.685 98.9608C250.174 95.3765 251.417 91.3312 251.417 86.8851V86.8651L251.416 86.8451C251.319 81.9887 249.95 77.8646 247.157 74.6508C244.618 71.6269 241.527 69.3677 237.905 67.8953C234.459 66.4069 230.048 64.9414 224.7 63.4911C220.521 62.3351 217.269 61.3232 214.92 60.4555C212.809 59.5576 211.066 58.4403 209.658 57.1215C208.536 55.9146 207.947 54.4081 207.947 52.4601C207.947 50.0804 208.912 48.1923 211.035 46.6549C213.198 45.0884 216.251 44.2001 220.392 44.2001C224.839 44.2001 228.116 45.2875 230.447 47.2424L230.459 47.2525L230.471 47.2623C232.899 49.2357 234.228 51.8183 234.462 55.1643L234.592 57.0251H236.457H248.742H250.844L250.739 54.9252C250.355 47.2283 247.435 41.0073 241.911 36.4696C236.43 31.9669 229.329 29.8051 220.797 29.8051C215.255 29.8051 210.244 30.791 205.808 32.8131C201.399 34.7328 197.9 37.416 195.409 40.9026L197.037 42.0651L195.409 40.9026C192.923 44.383 191.662 48.2526 191.662 52.4601C191.662 57.5764 192.971 61.9291 195.759 65.3365L195.78 65.3622L195.802 65.3871C198.508 68.4795 201.711 70.8602 205.4 72.5107L205.429 72.5235L205.458 72.5354C209.079 74.0211 213.671 75.487 219.209 76.9396L219.217 76.9417L219.225 76.9436C225.206 78.4613 229.456 79.9849 232.101 81.4732L232.122 81.485L232.144 81.4963C233.319 82.1209 234.107 82.8666 234.61 83.7C235.113 84.5328 235.402 85.5692 235.402 86.8851C235.402 89.3576 234.387 91.4013 232.135 93.1278C229.894 94.8456 226.685 95.8201 222.282 95.8201C217.555 95.8201 213.918 94.7267 211.201 92.7128C208.569 90.6965 207.161 88.1803 206.857 85.0709L206.681 83.2651H204.867H192.177H190.053L190.18 85.3848C190.473 90.2606 192.042 94.6413 194.892 98.4735L194.899 98.4835L194.907 98.4934C197.75 102.218 201.592 105.114 206.356 107.211Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M182.884 33.02V31.02H180.884H168.599H166.599V33.02V73.655C166.599 81.0907 164.785 86.421 161.467 89.9754C158.136 93.5449 153.532 95.415 147.404 95.415C141.451 95.415 136.979 93.6307 133.74 90.2382C130.505 86.7615 128.749 81.6922 128.749 74.735V33.02V31.02H126.749H114.599H112.599V33.02V76.355C112.599 83.4456 113.952 89.5992 116.76 94.73L116.767 94.7427L116.774 94.7552C119.651 99.8382 123.567 103.719 128.514 106.338L128.527 106.345L128.541 106.352C133.444 108.851 138.936 110.08 144.974 110.08C150.297 110.08 155.197 108.985 159.639 106.764L159.646 106.76L159.654 106.756C162.302 105.404 164.621 103.745 166.599 101.779V107V109H168.599H180.884H182.884V107V33.02Z"
+          stroke="white" stroke-width="4" />
+        <path
+          d="M101.84 13.5801V11.5801H99.84H86.745H85.449L84.9195 12.7631L52.185 85.9042L19.4505 12.7631L18.9211 11.5801H17.625H4.39502H2.39502V13.5801V107V109H4.39502H16.68H18.68V107V46.584L46.039 107.816L46.5681 109H47.865H56.505H57.8032L58.3318 107.814L85.555 46.7395V107V109H87.555H99.84H101.84V107V13.5801Z"
+          stroke="white" stroke-width="4" />
+      </svg>
+    </div>
+  </div>
+
+
+  <!-- Resources Sec-->
+    <div class="mainBody">
+      <active>
+        <div class="Resources revealable" id="about">
+          <div class=".container2">
+            <button class="main__button"></button>
+          </div>
+        </div>
+          <br>
+          <br>
+          <h1 class="bodyHeader">Why and how is music so beneficial?</h1>
+          <p class="info">While listening to music, dopamine — a neurotransmitter that gives one pleasure — is released in the
+            brain
+            and in turn, the listener’s mood will improve. Furthermore, the body sends out music-induced chills as a way
+            to show musical pleasure. In a neurological sense, these chills reduce anxiety in the brain. With music and
+            its effects, patients can feel more energized and happy. <br><br> In addition to improving one’s mood, music
+            can also help with one’s memory and learning. Memories are created through remembering a situation
+            repeatedly in one’s mind which in turn strengthens the bond between neurons.Two types of waves are used when
+            one remembers something. The alpha waves in the brain are responsible for one’s concentration and the theta
+            waves are responsible for one’s calmness. However, when one can not remember a certain piece of information,
+            it is because stress levels in the brain rise and lower theta waves are present. Stress can decrease the
+            amount of neurons in the brain as well as how they are formed which in turn limits one’s memory. As stated
+            before, music relaxes the brain by releasing dopamine and therefore increasing theta waves and lowering
+            stress levels.<br></br>Hover over the cards read more articles on Music on the Brain:</p>
+    
+          <div class="container2">
+            <div class="card card0">
+              <div class="border">
+                <h2>Johns Hopkins</h2><br></br>
+                <p>Music and the Brain: Listening to music can be a great way to exercise your brain and keep it sharp.
+                  Studies suggest that music improves mental alertness, memory, and even sleep quality, offering a total brain
+                  workout.</p> <br></br>
+                <form
+                  action="https://www.hopkinsmedicine.org/health/wellness-and-prevention/keep-your-brain-young-with-music#:~:text=It%20provides%20a%20total%20brain,%2C%20mental%20alertness%2C%20and%20memory.">
+                  <button class="button2" type="submit">Read more</button>
+                </form>
+              </div>
+            </div>
+            <div class="card card1">
+              <div class="border">
+                <h2>Medium</h2><br></br>
+                <p>Maintaining Social Bonds via Music: The Power of Music in Connecting People.Music can bring people together
+                  and create a sense of community. Shared experiences of music can create a sense of connection and
+                  understanding. </p> <br></br>
+                <form
+                  action="https://medium.com/@vrsworldtrader/maintaining-social-bonds-via-music-the-power-of-music-in-connecting-people-c85250e84087#:~:text=Music%20can%20also%20help%20to,way%20that%20transcends%20language%20barriers.">
+                  <button class="button2" type="submit">Read more</button>
+                </form>
+              </div>
+            </div>
+            <div class="card card2">
+              <div class="border">
+                <h2>American Psychiatric Association</h2><br></br>
+                <p>Music can be a powerful tool for mental well-being. Research shows that listening to music or even playing
+                  an instrument can improve mood, reduce stress, and even help people manage serious mental health conditions.
+                </p> <br></br>
+                <form
+                  action="https://www.psychiatry.org/news-room/apa-blogs/power-of-music-in-mental-well-being#:~:text=A%202022%20review%20and%20meta,health%20and%20substance%20use%20disorders.">
+                  <button class="button2" type="submit">Read more</button>
+                </form>
+              </div>
+            </div>
+          </div>
+      </active>
+    
+        <!-- <div class="call"></div> -->
+        <!-- Stats Sec -->
+      <active>
+        <div class="statistics revealable" id="stats">
+          <div class=".call">
+            <button class="main__button"></button>
+            <br>
+            <br>
+            <br>
+            <h1 class="bodyHeader">Watch Some Videos</h1>
+            <p class="info">In a TED talk by neuroscientist and musician Alan Harvey, he explores the power of music and its
+              impact on the human brain.<br>
+              Harvey dives into the neuroscience of music, explaining how music can stimulate our emotions, memories, and
+              even our reward center. He argues that music is not just an art form, but a fundamental human capability that
+              has played a vital role in our evolution. </p>
+          </div>
+          <br>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MZFFwy5fwYI?si=X3I8ICV9PwLEUxVN"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <br>
+          <div>
+            <p class="info">Our brain is activated by all sorts of music, regardless of the genre. Researchers used fMRI to
+              scan the speaker's brain while he listened to music. The scans showed activity in almost all areas of the
+              brain, not just one specific area.<br>
+    
+              Music activates different parts of the brain depending on the function. The auditory cortex tracks loudness,
+              pitch, and timbre. The visual cortex is activated when reading music. The motor cortex is activated when we
+              tap our feet or clap our hands in time with the music. The cerebellum mediates emotional responses, and the
+              hippocampus is involved in memory.<br><br>
+            </p>
+          </div>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HRE624795zU?si=im36LPaWh1l-029I"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+          <br>
+          <br>
+        </div>
+      </active>
+    
+      <active>
+        <div class="petition revealable" id="petition">
+    
+          <h1 class="bodyHeader">Sign Our Petition 📢</h1>
+          <div class="petition-container">
+    
+    
+            <div class="petition-para">
+              <p>Music is more than just entertainment; it's a powerful tool for boosting brainpower and fostering
+                connection. Studies show that music improves memory, reduces stress, and even elevates mood. By increasing
+                the number of music events in our community, we can unlock these benefits for everyone. Imagine vibrant
+                evenings filled with live music, where neighbors gather to share the joy of melody. Sign this petition to
+                advocate for more music events and create a happier, healthier community that thrives on the unifying power
+                of music!</p>
+            </div>
+    
+            <div class="signatures">
+              <!-- <p id=“counter-holder”>🖊️ <span id=“counter”>3</span> people have signed this petition and support this cause.</p> -->
+              <p>🖊️ DJ from Brooklyn supports this.</p>
+              <p>🖊️ Amy from Queens supports this.</p>
+              <p>🖊️ Teresa from Harlem supports this.</p>
+              <!-- <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p> -->
+            </div>
+    
+          </div>
+    
+          <!--- Sign Petition Form --->
+          <form id="sign-petition" title="sign-petition">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" /><br />
+            <label for="hometown">Hometown:</label>
+            <input type="text" id="hometown" name="hometown" /><br />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" /><br />
+            <!-- inputs go here -->
+          </form>
+    
+          <!--- Sign Now Button --->
+          <button id="sign-now-button">Sign Now</button>
+    
+        </div>
+      </active>
+      <br>
+      <br>
+    </div>
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <!-- text here -->
+          <p id="thanks-modal-content">Thank you for your support!</p>
+      
+        <!-- button here (stretch feature) -->
+      </div>
+      <!-- image here-->
+      <img id = "thanks-img" src= "vibe.png"></img>
+    </div>
+
+  </div>
+
+
+  <footer class="footnotes">
+    <h3>Thanks for reading!</h3>
+    <p>This website was created by Elizabeth Woo for Codepath WEB101 (2024)</p>
+    <br>
+    <!-- <h3>About Me</h3>
+    <p>Elizabeth Woo background </p> -->
+
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+
+</html>
