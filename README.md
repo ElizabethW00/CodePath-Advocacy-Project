@@ -1,0 +1,1 @@
+Driven by a curiosity for the brain’s musicality, I crafted a digital experience exploring music’s therapeutic potential for dementia patients. Leveraging CodePath’s Web 101 foundations in HTML, CSS, and JavaScript, I transformed research into an engaging online platform.
